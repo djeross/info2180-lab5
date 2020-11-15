@@ -1,1 +1,80 @@
 /* Add your own styles */
+html{
+	background-image: url("flags.jpg");
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+
+#maindiv{
+    grid-column: 2;
+    background-color: white;
+    height:100%;
+    border-style: solid;
+}
+
+body{
+    font-size: 18px ;
+    color: #000 ;
+    font-family: -apple-system,BlinkMacSystemFont,"SegoeUI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;
+}
+
+header{
+    background-color: #a79344;
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    padding-top:3px;
+    font-size: 50px;
+}
+#globe{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+main .container{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#controls{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#buttons{
+    display:flex;
+    justify-content:center;
+}
+
+#country{
+    width:500px;
+    height:35px;
+    border-radius: 5px;
+}
+
+#lookup{
+    width: 90px;
+    height:28px;
+}
