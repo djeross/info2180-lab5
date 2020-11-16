@@ -50,8 +50,6 @@ main{
 
 main .container{
     padding-top: 50px;
-    display: grid;
-    grid-template-columns: 1fr 10fr 1fr;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -60,6 +58,7 @@ main .container{
 #controls{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap:10px;
 }
 
@@ -68,13 +67,25 @@ main .container{
     justify-content:center;
 }
 
+#searchbar{
+    display:flex;
+    justify-content:center;
+}
+
 #country{
     width:500px;
     height:35px;
-    border-radius: 5px;
+    border-radius: 5px;  
 }
 
 #lookup{
     width: 90px;
     height:28px;
+    background-color: #a79344;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
 }
+
+
+
