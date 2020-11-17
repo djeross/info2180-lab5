@@ -65,6 +65,7 @@ main .container{
 #buttons{
     display:flex;
     justify-content:center;
+    gap:20px;
 }
 
 #searchbar{
@@ -79,13 +80,53 @@ main .container{
 }
 
 #lookup{
-    width: 90px;
+    width: 150px;
     height:28px;
     background-color: #a79344;
     border-radius: 5px;
     font-weight: bold;
     color: white;
 }
+#cities{
+    width: 150px;
+    height:28px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #a79344;
+    border-color: #a79344;
+}
 
+.displaytable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#a79344 ;
+    color: white;
+}
 
+.displaytable{
+    border-collapse: separate;
+    width: 100%; 
+}
 
+.displaytable td, .displaytable th {
+    border: 1px solid rgb(202, 201, 201);
+    padding: 10px;
+}
+
+.displaytable tr:nth-child(even){
+    background-color: #d6d4d4;
+}
+
+.th1{
+    width:350px;
+}
+
+.th2,.th3{
+    width:120px;
+}
+
+.th4{
+    width:280px
+}
